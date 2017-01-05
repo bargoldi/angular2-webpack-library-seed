@@ -4,7 +4,7 @@ module.exports = {
     devtool: 'inline-source-map',
 
     resolve: {
-        extensions: ['', '.ts', '.js']
+        extensions: ['.ts', '.js']
     },
 
     module: {
@@ -16,7 +16,6 @@ module.exports = {
             {
                 test: /\.html$/,
                 loader: 'html'
-
             },
             {
                 test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
@@ -34,4 +33,4 @@ module.exports = {
             }
         ]
     }
-}
+};
