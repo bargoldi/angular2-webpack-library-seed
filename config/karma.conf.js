@@ -1,4 +1,4 @@
-var helpers = require('./helpers');
+var root = require('./root-helper');
 
 module.exports = {
     devtool: 'inline-source-map',
@@ -24,12 +24,12 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                exclude: helpers.root('src', 'app'),
+                exclude: root.root('src', 'app'),
                 loader: 'null'
             },
             {
                 test: /\.css$/,
-                include: helpers.root('src', 'app'),
+                include: root.root('src', 'app'),
                 loader: 'raw'
             }
         ]
