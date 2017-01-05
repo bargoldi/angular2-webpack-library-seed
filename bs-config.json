@@ -1,6 +1,0 @@
-{
-  "server": {
-    "baseDir": "dist-demo/",
-    "index": "demo/index.html"
-  }
-}
