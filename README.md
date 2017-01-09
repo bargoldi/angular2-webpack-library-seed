@@ -58,7 +58,7 @@ $ npm test
 │           main.css
 │
 └───src
-        main.ts
+│      main.ts
 │   .gitignore
 │   .npmignore
 │   gulpfile.js
