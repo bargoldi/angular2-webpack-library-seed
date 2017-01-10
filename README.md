@@ -41,9 +41,7 @@ $ npm test
 │   │   │   app.component.html
 │   │   │   app.component.ts
 │   │   │   app.module.ts
-│   │   │   i18n.providers.ts
 │   │   │   main.ts
-│   │   │   operators.ts
 │   │   │
 │   │   └───shared
 │   │           shared.module.ts

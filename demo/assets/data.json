@@ -1,6 +1,5 @@
-[
-  "Edsger Dijkstra",
-  "Donald Knuth",
-  "Alan Turing",
-  "Grace Hopper"
-]
+{
+  "name": "Bar Goldinfeld",
+  "job": "Web COE Team",
+  "github": "https://github.com/bargoldi"
+}
