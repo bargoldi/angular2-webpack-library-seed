@@ -1,7 +1,7 @@
 {
-  "name": "ng2-packager-starter",
+  "name": "angular2-webpack-library-seed",
   "version": "1.0.0",
-  "description": "Angular2 package starter - a basic seed for writing and publishing an Angular2 package.",
+  "description": "Angular2 library seed - based on Webpack",
   "main": "dist/main.js",
   "typings": "dist/main.d.ts",
   "scripts": {
