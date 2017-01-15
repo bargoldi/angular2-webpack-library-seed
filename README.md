@@ -1,5 +1,5 @@
-# ng2-package-starter
-Angular2 package starter - a basic seed for writing and publishing an Angular2 package.
+# angular2-webpack-library-seed
+Angular2 library seed - based on Webpack
 
 ## Getting started
 ```bash
@@ -12,7 +12,7 @@ $ cd project_directory
 $ npm install
 ```
 ## Usage
-In order to run a webpack server, use the command:
+In order to run a webpack dev-server, use the command:
 ```bash
 $ npm start
 ```
