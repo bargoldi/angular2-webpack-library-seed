@@ -4,11 +4,7 @@ Angular2 library seed - based on Webpack
 ## Getting started
 ```bash
 $ git clone https://github.com/bargoldi/ng2-package-starter
-```
-```bash
 $ cd project_directory
-```
-```bash
 $ npm install
 ```
 ## Usage
@@ -21,11 +17,19 @@ $ npm start
 $ npm test
 ```
 
+## Publishing
+```bash
+$ npm run build
+$ npm publish
+```
+
 ## Directory Structure
 ```
 ├───config
+│       karma-test-shim.js
 │       karma.conf.js
 │       root-helper.js
+│       webpack.aot.js
 │       webpack.common.js
 │       webpack.dev.js
 │       webpack.test.js
@@ -37,7 +41,6 @@ $ npm test
 │   │   vendor.ts
 │   │
 │   ├───app
-│   │   │   app.component.css
 │   │   │   app.component.html
 │   │   │   app.component.ts
 │   │   │   app.module.ts
@@ -47,24 +50,21 @@ $ npm test
 │   │           shared.module.ts
 │   │
 │   ├───assets
-│   │   │   data.json
-│   │   │
-│   │   └───svg
-│   │           more.svg
+│   │       data.json
 │   │
 │   └───css
 │           main.css
 │
-└───src
+├───src
 │       main.ts
 │   .gitignore
 │   .npmignore
-│   gulpfile.js
 │   karma.conf.js
+│   LICENSE.txt
 │   package.json
 │   README.md
 │   tsconfig.aot.json
 │   tsconfig.json
+│   webpack.aot.config.js
 │   webpack.config.js
 ```
-## Configuration
