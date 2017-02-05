@@ -68,3 +68,5 @@ $ npm publish
 │   webpack.aot.config.js
 │   webpack.config.js
 ```
+## Coming Soon
+- Webpack bundling ability
