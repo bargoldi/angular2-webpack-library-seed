@@ -18,6 +18,22 @@
     "url": "https://github.com/bargoldi/angular2-webpack-library-seed.git"
   },
   "license": "MIT",
+  "keywords": [
+    "angular",
+    "angular2",
+    "package",
+    "npm",
+    "seed",
+    "starter",
+    "ng2",
+    "ng2-package-starter",
+    "angular2-package-starter",
+    "webpack",
+    "angular2-library",
+    "ng2-webpack-library-seed",
+    "angular2-webpack-library-seed"
+  ],
+  "author": "Bar Goldinfeld <bargoldinfeld@gmail.com> (https://github.com/bargoldi)",
   "bugs": {
     "url": "https://github.com/bargoldi/angular2-webpack-library-seed/issues"
   },
