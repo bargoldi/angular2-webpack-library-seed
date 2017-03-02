@@ -10,8 +10,8 @@
     "test": "karma start",
     "ngc": "ngc -p tsconfig.aot.json",
     "aot": "node_modules\\.bin\\webpack --config webpack.aot.config.js -p",
-    "build": "npm run cleanup && npm run ngc && npm run aot && rimraf dist/main.bundle.js dist/main.bundle.js.map",
-    "build-demo": "rimraf dist && node_modules\\.bin\\webpack --config config/webpack.dev.js --progress --profile --bail"
+    "bundle": "npm run cleanup && npm run ngc && npm run aot && rimraf dist/main.bundle.js dist/main.bundle.js.map",
+    "build": "rimraf dist && node_modules\\.bin\\webpack --config config/webpack.dev.js --progress --profile --bail"
   },
   "repository": {
     "type": "git",

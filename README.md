@@ -19,7 +19,7 @@ $ npm test
 
 ## Publishing
 ```bash
-$ npm run build
+$ npm run bundle
 $ npm publish
 ```
 
