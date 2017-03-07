@@ -1,27 +1,30 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "sourceMap": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "stripInternal": true,
     "emitDecoratorMetadata": true,
+    "removeComments": true,
     "experimentalDecorators": true,
     "noImplicitAny": false,
-    "declaration": true,
+    "module": "es2015",
+    "moduleResolution": "node",
     "rootDir": "./src",
-    "outDir": "./dist",
-    "typeRoots": [
-      "node_modules/@types"
+    "outDir": "./src",
+    "sourceMap": true,
+    "inlineSources": true,
+    "skipLibCheck": true,
+    "lib": [
+      "es2015",
+      "dom"
     ],
     "types": [
-      "core-js",
-      "node",
-      "jasmine"
+      "node"
     ]
   },
   "exclude": [
-    "bower",
-    "node_modules"
+    "./node_modules/@types/core-js"
   ],
   "files": [
     "./src/main.ts"
@@ -29,5 +32,8 @@
   "angularCompilerOptions": {
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true
-  }
+  },
+  "typings": [
+    "./src/typings.d.ts"
+  ]
 }
