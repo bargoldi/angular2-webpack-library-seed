@@ -23,6 +23,22 @@ $ npm run bundle
 $ npm publish
 ```
 
+## Bundle Structure
+```
+├───bundles
+│       bundle.umd.js
+│       bundle.umd.js.map
+│
+├───src
+│       source files
+│
+│  .npmignore
+│  LICENSE.txt
+│  package.json
+│  README.md
+
+```
+
 ## Directory Structure
 ```
 ├───config
