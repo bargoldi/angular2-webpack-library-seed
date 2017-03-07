@@ -39,6 +39,10 @@ $ npm publish
 
 ```
 
+## Notes:
+* You may and should change your umd file name in webpack.aot.js configuration (Don't forget to change the name in your `main` configuration in package.json)
+* `ngc` doesn't support template and styles inlining therefore if you would like to publish the package to both ``SystemJS`` and ``Webpack``, you might need to inline the templates yourself
+
 ## Directory Structure
 ```
 ├───config
